@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "description": "保守的广告域名规则；域名及其子域匹配，白名单优先。业务主域不在默认黑名单。",
+  "blockedDomains": ["doubleclick.net", "googlesyndication.com", "googleadservices.com", "pangolin.snssdk.com", "pangolin-sdk-toutiao.com", "pangolin-sdk-toutiao-b.com", "pangolin-sdk-toutiao1.com", "pangolin16.sgsnssdk.com", "pangolin16.isnssdk.com", "pglstatp-toutiao.com", "byteorge.com", "pangle.io", "adkwai.com", "e.kuaishou.com", "open.e.kuaishou.com", "gdt.qq.com", "mi.gdt.qq.com", "pgdt.gtimg.cn", "mobads.baidu.com", "mobads-logs.baidu.com", "ad.bendibao.com", "ads.bilibili.com", "ad.bilibili.com"],
+  "allowedDomains": []
+}

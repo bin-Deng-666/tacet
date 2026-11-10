@@ -1,0 +1,13 @@
+# Local signing keys and build output
+.signing/
+*.apk
+*.idsig
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "description": "B 站只处理开屏与切回前台；应用内部广告不处理。养基宝处理广告跳过控件。",
+  "rules": [
+    {"id":"bili-splash-countdown","package":"tv.danmaku.bili","name":"跳过开屏广告","viewIds":["count_down","skip"],"action":"click"},
+    {"id":"yjb-pangle-skip","package":"yangjibao.app","name":"跳过穿山甲广告","viewIds":["tt_splash_skip_btn","tt_splash_skip_tv","tt_splash_skip_tv_right","tt_splash_skip_btn_layout"],"action":"click"},
+    {"id":"yjb-gdt-skip","package":"yangjibao.app","name":"跳过优量汇广告","viewIds":["gdt_skip_view","gdt_splash_skip","gdt_splash_skip_view"],"action":"click"},
+    {"id":"yjb-kuaishou-skip","package":"yangjibao.app","name":"跳过快手广告","viewIds":["ksad_splash_skip_view","ksad_splash_skip_right_view"],"action":"click"},
+    {"id":"yjb-explicit-skip","package":"yangjibao.app","name":"跳过广告","textPattern":"^(跳过广告|跳过[\\s（(]*[0-9]{0,2}[\\s秒s）)]*|[0-9]{1,2}[\\s秒s]*跳过)$","position":"topRight","action":"click"}
+  ]
+}
