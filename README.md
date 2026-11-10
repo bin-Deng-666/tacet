@@ -70,9 +70,12 @@ src/                       源码（Java，无第三方依赖）
 res/                       资源
 build.py                   构建脚本
 test/                      协议测试与设备测试
+docs/share/                发布到小红书、抖音、B 站的图文素材与文案
 ```
 
 规则文件带版本号，改动会随新 APK 发布；域名自定义规则可在应用内直接修改。
+
+`docs/share/` 里是发布到社交平台用的材料，说明见 [docs/share/README.md](docs/share/README.md)。
 
 ## 隐私
 
